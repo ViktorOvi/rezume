@@ -3,7 +3,7 @@
 body {
     font-size: 16px;
     font-family: 'Roboto' sans-serif;
-    font-weight: Medium;
+    font-weight: normal;
     background: #F1F1F1;
     color: #0F141E;
 }
@@ -30,14 +30,12 @@ a:active {
     max-width: 750px;
     margin: auto;
     padding-top: 30px;
-    display: inline;
 }
 
 .avatar {
     width: 200px;
     border-radius: 20px;
     box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
-    display: block;
 }
 
 
@@ -97,7 +95,6 @@ a:active {
     border: none;
     font-family: inherit;
     cursor: pointer;
-    border-radius: 8px;
 }
 
 .btn:hover {
@@ -105,12 +102,12 @@ a:active {
 }
 
 .list {
-    padding: 0px 25px;
+    padding: 0px 20px;
 }
 
 .list li {
     color: grey;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
 }
 
 .link-list {
@@ -119,10 +116,9 @@ a:active {
 }
 
 .link-list li {
-    color: #4b3f3f;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
     border-bottom: 1px solid #ccc;
-    padding-bottom: 6px;
+    padding-bottom: 5px;
 }
 
 .table {
